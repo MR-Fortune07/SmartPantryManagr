@@ -81,7 +81,7 @@ public class DatabaseHelper extends SQLiteOpenHelper {
 
         // Runs only once, when the database file is first created -> recipes are "preloaded".
 
-        //SeedData.seed(db);
+        SeedData.seed(db);
     }
 
     @Override
