@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity implements PantryAdapter.Lis
         fab.setOnClickListener(v -> startActivity(new Intent(this, AddEditIngredientActivity.class)));
 
         BottomNavigationView nav = findViewById(R.id.bottomNav);
-        // BottomNavHelper.setup(this, nav, R.id.nav_pantry);
+         BottomNavHelper.setup(this, nav, R.id.nav_pantry);
     }
 
     // The list is reloaded every time the screen comes back to the foreground, so changes made
