@@ -40,7 +40,7 @@ public final class RecipeMatcher {
         }
         return totals;
     }
-
+    // true if the pantry has at least the amount the recipe needs
     public static boolean hasIngredient(Map<String, Double> totals, RecipeIngredient ing) {
         Double have = totals.get(key(ing.getName(), ing.getUnit()));
         double need = UnitUtils.toBase(ing.getQuantity(), ing.getUnit());

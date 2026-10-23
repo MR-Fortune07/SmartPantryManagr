@@ -53,6 +53,7 @@ public class MainActivity extends AppCompatActivity implements PantryAdapter.Lis
     // The list is reloaded every time the screen comes back to the foreground, so changes made
     // in AddEditIngredientActivity (or in a previous session) always show up.
     @Override
+    // reloads the list each time the screen comes back
     protected void onResume() {
         super.onResume();
         refresh();

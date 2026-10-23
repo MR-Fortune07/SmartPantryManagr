@@ -92,6 +92,8 @@ public class AddEditIngredientActivity extends AppCompatActivity {
     }
 
     // Input validation, then INSERT (new) or UPDATE (existing).
+
+    // checks the input first, then inserts or updates the item
     private void save() {
         tilName.setError(null);
         tilQty.setError(null);

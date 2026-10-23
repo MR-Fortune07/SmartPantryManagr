@@ -46,6 +46,7 @@ public class PantryAdapter extends RecyclerView.Adapter<PantryAdapter.VH> {
     }
 
     @Override
+    // fills one row with an item's name, quantity and expiry text
     public void onBindViewHolder(@NonNull VH h, int position) {
         final PantryItem item = items.get(position);
         h.name.setText(item.getName());
