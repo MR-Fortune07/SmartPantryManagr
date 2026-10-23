@@ -23,4 +23,4 @@ How to run:
 2.Open the folder in Android Studio. 
 3.Wait for Gradle to sync.
 4.Pick an emulator or a phone with USB debugging, then press the Run button.
-5.The app starts on the pantry screen, and the 22 recipes are loaded into the database the first time it launches.
+5.The app starts on the pantry screen,and the 22 recipes are loaded into the database the first time it launches.
